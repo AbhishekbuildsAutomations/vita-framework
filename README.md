@@ -5,9 +5,9 @@ Built by Abhishek Singh Baghel, September–October 2026.
 
 VITA stands for **Validate, Identify, Trade-off, Assurance**.
 
-I built it while preparing for a customer support engineering interview.
+I built it because hard conversations kept going sideways.
+An angry stakeholder. A request we can't deliver. Someone threatening to walk away.
 I needed one structure I could recall under pressure.
-It has to work for an angry client, an unreasonable request, and a "no".
 
 It is not a universal tool.
 It fits most customer-facing conversations. It does not fit troubleshooting. More on that below.
@@ -22,7 +22,7 @@ Acknowledge the emotion or the request before anything else.
 
 > "I understand this matters to you."
 
-If the client is threatening to leave, say what is at stake:
+If the stakeholder is threatening to leave, say what is at stake:
 
 > "I don't want to lose you, and I'll personally see this through."
 
@@ -33,7 +33,7 @@ What outcome do they actually want?
 
 For a complaint, find out what actually broke.
 Is it a real bug, or a missed step?
-Watching the client use the product live is usually the fastest way to tell.
+Watching the stakeholder use the product live is usually the fastest way to tell.
 
 Root cause lives here. It does not get its own step.
 
@@ -67,7 +67,7 @@ These came from running VITA against practice scenarios. Each one fixes a mistak
 - **Say "investigate", not "debug".**
   Don't use words that commit you to work you don't do.
 - **Keep "I'll update you" separate from "it's fixed".**
-  The update keeps the client calm. Silence after "I'll get back to you" is what makes them angry.
+  The update keeps the stakeholder calm. Silence after "I'll get back to you" is what makes them angry.
 - **No engineering team behind you? Draw the line out loud.**
   Own setup, integrations, data, logs and workarounds.
   Hand core code changes to whoever owns the codebase, with a full diagnosis attached.
@@ -76,7 +76,7 @@ These came from running VITA against practice scenarios. Each one fixes a mistak
 
 ## Worked example
 
-**Scenario:** A client is furious and threatening to leave.
+**Scenario:** A stakeholder is furious and threatening to leave.
 
 - **V:** "You're right to be frustrated. I don't want to lose you, and I'll personally see this through."
 - **I:** "Can you walk me through exactly what happened? Was it the output, the software, or time wasted on our side?"
@@ -106,7 +106,7 @@ V and I cover similar ground to Hear and Empathize.
 
 What VITA does differently:
 
-- It centres on a **trade-off**, not an apology. Saying no without losing the client is built in.
+- It centres on a **trade-off**, not an apology. Saying no without losing the stakeholder is built in.
 - It makes **honest routing** part of the close. You don't promise anything before verifying it.
 - T flexes between Trade-off and Treat, so one structure covers both requests and complaints.
 
